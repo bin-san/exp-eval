@@ -576,7 +576,6 @@ fn evaluate(exp: &String) -> Result<String, SyntaxError> {
 }
 use std::io::stdin;
 fn main() {
-    /*
     loop {
         let mut x = String::new();
         stdin().read_line(&mut x);
@@ -590,7 +589,4 @@ fn main() {
             }
         }
     }
-    */
-    let f:f64 = "1.".parse().unwrap();
-    println!("{}", f);
 }
